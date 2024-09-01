@@ -51,13 +51,21 @@ class Fruit {
 
 $apple = new Fruit();
 $apple->setName('Apple');
+$apple->setColor('reed');
 
 $banana = new Fruit();
 $banana->setName('Banana');
+$banana->setColor('yellow');
 
 // result
 echo $apple->getName();
 echo "<br/>";
+echo $apple->getColor();
+echo "<br/>";
+echo "<br/>";
+echo "<br/>";
 echo $banana->getName();
+echo "<br/>";
+echo $banana->getColor();
 echo "<br/>";
 
